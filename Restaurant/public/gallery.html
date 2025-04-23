@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hometown Restaurant</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="/assets/images/favicon.jpg" type="image/x-icon">
+</head>
+<body>
+   
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/index.html">Home Town</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/public/menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/public/reservation.html">Reservations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/public/gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Testimonials</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <header class="page-header gallery-header">
+        <div class="overlay"></div>
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 text-center text-white">
+                    <h1 class="display-4 fw-bold">Our Gallery</h1>
+                    <p class="lead">A visual journey through our culinary creations and ambiance</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-4">
+                    <div class="gallery-filter">
+                        <button class="btn btn-outline-primary active me-2 mb-2" data-filter="all">All</button>
+                        <button class="btn btn-outline-primary me-2 mb-2" data-filter="food">Food</button>
+                        <button class="btn btn-outline-primary me-2 mb-2" data-filter="drinks">Drinks</button>
+                        <button class="btn btn-outline-primary me-2 mb-2" data-filter="interior">Interior</button>
+                        
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="row gallery-container">
+                
+               <div class="col-md-4 col-sm-6 mb-4 gallery-item food">
+                    <a href=" " data-lightbox="gallery" data-title="Truffle Pasta">
+                        <div class="gallery-image">
+                            <img src="https://www.girlgonegourmet.com/wp-content/uploads/2019/12/Truffle-Mushroom-Pasta-tasty.jpg" alt="Truffle Pasta" class="img-fluid rounded">
+                            <div class="gallery-overlay">
+                                <div class="gallery-info">
+                                    <h5>Truffle Pasta</h5>
+                                    <p>Handmade pasta with black truffle sauce</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                
+                <div class="col-md-4 col-sm-6 mb-4 gallery-item drinks">
+                    <a href=" " data-lightbox="gallery" data-title="Signature Cocktail">
+                        <div class="gallery-image">
+                            <img src="https://www.datocms-assets.com/99116/1696994579-virgin_punch.jpg?auto=format&fit=max&w=1200?height=300&width=400" alt="Signature Cocktail" class="img-fluid rounded">
+                            <div class="gallery-overlay">
+                                <div class="gallery-info">
+                                    <h5>Signature Cocktail</h5>
+                                    <p>Handcrafted with premium spirits</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4 gallery-item drinks">
+                    <a href=" " data-lightbox="gallery" data-title="Wine Selection">
+                        <div class="gallery-image">
+                            <img src="https://www.datocms-assets.com/99116/1696994579-virgin_punch.jpg?auto=format&fit=max&w=1200?height=300&width=400" alt="Wine Selection" class="img-fluid rounded">
+                            <div class="gallery-overlay">
+                                <div class="gallery-info">
+                                    <h5>Wine Selection</h5>
+                                    <p>Curated collection from around the world</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4 gallery-item drinks">
+                    <a href=" " data-lightbox="gallery" data-title="Craft Beer">
+                        <div class="gallery-image">
+                            <img src="https://www.datocms-assets.com/99116/1696994579-virgin_punch.jpg?auto=format&fit=max&w=1200?height=300&width=400" alt="Craft Beer" class="img-fluid rounded">
+                            <div class="gallery-overlay">
+                                <div class="gallery-info">
+                                    <h5>Craft Beer</h5>
+                                    <p>Local and imported selections</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+               
+                <div class="col-md-4 col-sm-6 mb-4 gallery-item interior">
+                    <a href=" " data-lightbox="gallery" data-title="Main Dining Room">
+                        <div class="gallery-image">
+                            <img src="https://thevendry.com/cdn-cgi/image/width=640,quality=75,fit=contain,metadata=none,format=auto/https%3A%2F%2Fs3.amazonaws.com%2Fuploads.thevendry.co%2F22216%2F1657635135571_Main-Dining-Room-Header.jpg" alt="Main Dining Room" class="img-fluid rounded">
+                            <div class="gallery-overlay">
+                                <div class="gallery-info">
+                                    <h5>Main Dining Room</h5>
+                                    <p>Elegant and comfortable atmosphere</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4 gallery-item interior">
+                    <a href=" " data-lightbox="gallery" data-title="Private Dining Area">
+                        <div class="gallery-image">
+                            <img src="https://thevendry.com/cdn-cgi/image/width=640,quality=75,fit=contain,metadata=none,format=auto/https%3A%2F%2Fs3.amazonaws.com%2Fuploads.thevendry.co%2F22216%2F1657635135571_Main-Dining-Room-Header.jpg" alt="Main Dining Room" class="img-fluid rounded">
+                            <div class="gallery-overlay">
+                                <div class="gallery-info">
+                                    <h5>Private Dining Area</h5>
+                                    <p>Intimate space for special occasions</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4 gallery-item interior">
+                    <a href="" data-lightbox="gallery" data-title="wedding">
+                        <div class="gallery-image">
+                            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/30/54/b2/bidri-ambience.jpg?w=600&h=-1&s=1" alt="wedding" class="img-fluid rounded">
+                            <div class="gallery-overlay">
+                                <div class="gallery-info">
+                                    <h5>Events</h5>
+                                    <p>Elegant celebrations in our event space</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4 gallery-item interior">
+                    <a href="" data-lightbox="gallery" data-title="wedding">
+                        <div class="gallery-image">
+                            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/30/54/b2/bidri-ambience.jpg?w=600&h=-1&s=1" alt="wedding" class="img-fluid rounded">
+                            <div class="gallery-overlay">
+                                <div class="gallery-info">
+                                    <h5>Birthday Celebrations</h5>
+                                    <p>Elegant celebrations in our event space</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4 gallery-item interior">
+                    <a href="" data-lightbox="gallery" data-title="wedding">
+                        <div class="gallery-image">
+                            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/30/54/b2/bidri-ambience.jpg?w=600&h=-1&s=1" alt="paasta" class="img-fluid rounded">
+                            <div class="gallery-overlay">
+                                <div class="gallery-info">
+                                    <h5>Parties</h5>
+                                    <p>Elegant and comfortable atmosphere</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+
+    
+
+   
+
+   
+    <footer class="bg-success text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>Home Town</h5>
+                    <p>123 Madhapur Street<br>Hyderabad, FD 12345</p>
+                    <p><i class="fas fa-phone me-2"></i> (555) 123-4567</p>
+                    <p><i class="fas fa-envelope me-2"></i> info@hometown.com</p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>Hours</h5>
+                    <p>Monday - Thursday: 11am - 10pm</p>
+                    <p>Friday - Saturday: 11am - 11pm</p>
+                    <p>Sunday: 10am - 9pm</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Stay Connected</h5>
+                    <div class="social-icons">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-yelp"></i></a>
+                    </div>
+                    <div class="mt-3">
+                        <a href="reservation.html" class="btn btn-primary">Reserve a Table</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12 text-center">
+                    <p class="mb-0">© 2023 Home Town Restaurant. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    
+    
+</body>
+</html>
